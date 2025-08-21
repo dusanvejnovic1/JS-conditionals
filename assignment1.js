@@ -50,6 +50,7 @@ console.log(analyzeTestCases(testCases)) */
 
 
 //new code
+// Update: still not sattisfied ill revisit this at some point
 function analyzeTestCases() {
   let testCasesSorted = testCases.map((a) => a.executions);
   let latestStatusById = {};
